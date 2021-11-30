@@ -1,5 +1,5 @@
-# Letuce_Eat
-Letuce_Eat https://github.com/MercyBore/Letuce_Eat.git
+# project1
+Project1 https://macc254.github.io/project1/
 # Author
 Mercy Bore.
 ### Description
