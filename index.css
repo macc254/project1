@@ -1,6 +1,12 @@
 h1{
   color: blue;
+  text-align:center;
+  text-decoration: underline;
 }
 h3{
   color: green;
+  text-align: center;
 }
+img{
+  align-items: center;
+  margin-left: 350px}
