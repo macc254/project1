@@ -1,8 +1,16 @@
-body {
-    color: white;
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
-    font-family: 'Poppins';
-    font-size: 15px;
+@media screen and (min-width:600px) {
+    body {
+        color: white;
+        background: rgb(5, 5, 94);
+        font-family: 'Poppins';
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: rgb(71, 8, 122);
+    }
 }
 
 img {
