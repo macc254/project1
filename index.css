@@ -1,92 +1,90 @@
-img {
-    height: 200px;
-    width: 150px;
-}
-
-.topnav {
-    overflow: hidden;
-    height: 100px;
-    width: 50%;
-    margin-left: 50%;
-}
-
-.topnav a {
-    padding: 15px 19px;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: rgba(203, 217, 230, 0.5);
-}
-
-.topnav a:hover {
-    background-color: orange;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: orange;
-    color: white;
-}
-
-a:link {
-    color: orange;
-    text-decoration: none;
-}
-
-
-/* visited link */
-
-a:visited {
-    color: orange;
-    text-decoration: none;
-}
-
-
-/* mouse over link */
-
-a:hover {
-    color: hotpink;
-    text-decoration: underline;
-}
-
-
-/* selected link */
-
-a:active {
-    color: blue;
-    text-decoration: underline;
-}
-
-.a {
-    display: flex;
-}
-
-.b {
-    margin: 30px;
-}
-
-.footer {
-    color: rgb(4, 44, 104);
-    text-align: center;
-    background-color: orange;
-    height: 40px;
-    font-size: 17px;
-}
-
-.jumbotron {
-    color: rgb(71, 8, 122);
-}
-
-@media screen and (min-width:600px) {
-    body {
-        color: white;
-        background: rgb(5, 5, 94);
-        font-family: 'Poppins';
-        font-size: 15px;
+    img {
+        height: 200px;
+        width: 150px;
     }
-}
-
-@media screen and (min-width: 768px) {
-    body {
+    
+    .topnav {
+        overflow: hidden;
+        height: 100px;
+        width: 50%;
+        margin-left: 50%;
+    }
+    
+    .topnav a {
+        padding: 15px 19px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: rgba(203, 217, 230, 0.5);
+    }
+    
+    .topnav a:hover {
+        background-color: orange;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: orange;
+        color: white;
+    }
+    
+    a:link {
+        color: orange;
+        text-decoration: none;
+    }
+    /* visited link */
+    
+    a:visited {
+        color: orange;
+        text-decoration: none;
+    }
+    /* mouse over link */
+    
+    a:hover {
+        color: hotpink;
+        text-decoration: underline;
+    }
+    /* selected link */
+    
+    a:active {
+        color: blue;
+        text-decoration: underline;
+    }
+    
+    .a {
+        display: flex;
+    }
+    
+    .b {
+        margin: 30px;
+    }
+    
+    .footer {
+        color: rgb(4, 44, 104);
+        text-align: center;
+        background-color: orange;
+        height: 40px;
+        font-size: 17px;
+    }
+    
+    .jumbotron {
+        color: rgb(71, 8, 122);
+    }
+    
+    .card {
         background-color: rgb(71, 8, 122);
     }
-}
+    
+    @media screen and (min-width: 600px) {
+        body {
+            color: white;
+            background: rgb(5, 5, 94);
+            font-family: 'Poppins';
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        body {
+            background-color: rgb(71, 8, 122);
+        }
+    }
